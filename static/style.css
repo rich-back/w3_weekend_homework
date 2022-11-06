@@ -1,0 +1,33 @@
+body {
+    background-color: #dec695;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
+}
+
+#home {
+    list-style: none;
+}
+
+#logo {
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+}
+
+#home > a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.book {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
