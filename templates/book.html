@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>{{ title }} From the Library</title>
+</head>
+
+<body>
+
+
+
+    <div class="book-container">
+
+        <div class="book">
+            <h2>{{ book.title }}</h2>
+            <h3>{{ book.author }}</h3>
+            <h4>Genre: {{ book.genre }}</h4>
+        </div>
+    </div>
+</body>
+
+{% endblock %}
